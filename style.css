@@ -337,6 +337,46 @@ section .title::after {
 .skills-content .right .mysql::before {
   width: 60%;
 }
+/***************************************************************/
+/* contact secion */
+/**************************************************************/
+
+.contact .contact-content .column {
+  width: calc(50% - 30px);
+}
+.contact .contact-content .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .contact-content .left p {
+  text-align: justify;
+}
+.contact .contact-content .left .icons {
+  margin: 10px 0;
+}
+.contact .contact-content .row {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  flex-direction: row;
+}
+.contact .contact-content .row .info {
+  margin-left: 30px;
+}
+.contact .contact-content .row .info a {
+  text-decoration: none;
+
+  color: #111;
+}
+.contact .contact-content .row .info a:hover {
+  color: #339989;
+}
+.contact .contact-content .row i {
+  font-size: 25px;
+  color: #339989;
+}
+
 /*********************************************************************************/
 /* responsive styling */
 /*********************************************************************************/
@@ -406,7 +446,7 @@ section .title::after {
   .about .about-content .right {
     flex: 100%;
   }
-  .skills .skills-content .column {
+  .skills .skills-content .column .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
   }
